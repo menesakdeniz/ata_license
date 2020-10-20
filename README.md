@@ -20,3 +20,6 @@
 *Kullanici ve data silme
 
 *Paket ekleme ve paket ile lisanslama
+
+
+# Bütün hakları Mustafa Ata Çağlayan'a aittir çalınması veya kopyasının kullanılması yasaktır.
