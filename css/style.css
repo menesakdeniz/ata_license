@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #16171c;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+    top: -3px;
+    height: 105%;
+    float: left;
+    position: fixed;
+    background-color: #202328;
+}
+
+#nav-bar > a {
+    width: 60px;
+    outline: none;
+}
+
+#nav-bar > a > button {
+    text-align: center;
+    margin-top: 20px;
+    color: #e1e1e2;
+    height: 60px;
+    width: 60px;
+    font-size: 28px;
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+
+#active{
+    color: #1a6bdb;
+}
+
+#nav-bar > a:nth-child(2) > button {
+    margin-top: 120px;
+}
+
+#nav-bar > a > button:hover {
+    color: #1a6bdb;
+}
+
+#content > p{
+    color: white;
+    margin-left: 100;
+}
+
+#nav-bar{
+   left: 0px;
+   height: 102%;
+   width: 60px;
+   max-width: 70px;
+}
+
+#content > h1{
+    color: #e1e1e2;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+#display-table{
+    margin-left: 100px;
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+    width: 90%;
+    display: table;
+    box-sizing: border-box;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+table, td, th {
+    padding: 11px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+#backred{
+    text-align: center;
+    cursor:pointer;
+    background-color: red;
+}
+
+#backred:hover{
+    background-color: #ff3636;
+}
+
+#backblue{
+    text-align: center;
+    cursor:pointer;
+    background-color: #820000;
+}
+
+#backmavi{
+    text-align: center;
+    cursor:pointer;
+    background-color: #0089BA;
+}
+#backmavi:hover{
+    background-color: #009cd4;
+}
+
+#backblue:hover{
+    background-color: #b72222;
+}
+
+
+
+#addlicenseform{
+    margin-left: 100px;
+}
+
+#addlicenseform > input{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+#addlicense{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #1376ff;
+}
+
+#addlicense:hover{
+    background-color: #0657bf;
+}
+
+#tabb{
+    color: white;
+    margin-left: 100px;
+}
+
+#addHak{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.closecodes{
+    color: white;
+}
+
+.select{
+    color: black;
+    outline: none;
+    border: 2px solid #0089BA;
+    padding: 3px;
+    cursor:pointer;
+    background-color: #f1f1f1;
+}
+
+#addtime{
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: 2px solid #0089BA;
+    padding: 4px;
+    background-color: #f1f1f1;
+}
+
+#right-nav{
+    float: right;
+}
+
+#left-nav{
+    float: left;
+}
+
+#navbar{
+    padding: 20px;
+}
+
+.margin-nav{
+    margin-right: 80px;
+}
+
+#nav-button{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border:none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #1a6bdb;
+    border-radius: 5px;
+    padding: 8px;
+    transition: 0.7s;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#nav-button:hover{
+    border:none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 2px solid #1a6bdb;
+}
+
+.register-button{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.7s;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #1a6bdb;
+    padding: 8px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-right: 2px solid #1a6bdb;
+}
+
+.login-button{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.7s;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #1a6bdb;
+    padding: 8px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-left: 2px solid #1a6bdb;
+}
+
+#login-hover:hover{
+    color: white;
+    border-color: white;
+    background-color:#1a6bdb; 
+}
+
+#first-content{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+    height: 800px;
+    width: 100%;
+}
+
+#texts{
+    transition: 0.7s;
+    color: white;
+    position: absolute;
+    top: 40%;
+}
+
+#logo-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#loginss{
+    transition: all 1.5s;
+   -webkit-transition: all 1.5s;
+    transition: 0.6s;
+}
+
+
+#registerss{
+    transition: all 1.5s;
+   -webkit-transition: all 1.5s;
+    transition: 0.6s;
+}
+
+#textss{
+    transition: all 1.5s;
+   -webkit-transition: all 1.5s;
+    transition: 0.6s;
+}
+
+#display-div{
+    transition: all 1.5s;
+   -webkit-transition: all 1.5s;
+    transition: 0.6s;
+}
+
+.login-input{
+    margin-top: 10px;
+}
+
+.input100{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border:none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #1a6bdb;
+    border-radius: 5px;
+    padding: 15px;
+    transition: 0.7s;
+}
+
+.input100:focus{
+    border:none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 2px solid #1a6bdb;
+}
+
+.login-title{
+    font-size: 30px;
+}
+.login-btn{
+    margin-top: 30px;
+    
+}
+
+.login100-form-btn{
+    transition: 0.7s;
+   -webkit-transition: all 1.5s;
+    transition: 0.6s;
+    width: 200px;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 89, 255);
+    border-radius: 40px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login100-form-btn:hover{
+    color:  rgb(0, 89, 255);
+    background-color:  white;
+}
+
+#fiyat-box{
+    border-radius: 20px;
+    margin: 10px;
+    float: left;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(46, 46, 46);
+}
+
+#ucret-text{
+    border-radius: 3px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(26, 26, 26);
+}
+
+#last-ucret{
+    border-radius: 3px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(26, 26, 26);
+}
