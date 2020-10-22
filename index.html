@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<title>Lisans Sistemi V2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="navbar">
+        <a id="left-nav" href="#" class="main-buttons"><button id="logo-button"><img src="images/logo2.png" alt="Logo" width="42" height="42" style="vertical-align:middle"></button></a>
+        <a id="right-nav" class="login-buttons"><button id="login-hover" class="login-button">Sign in</button></a>
+        <a id="right-nav"><button id="login-hover" class="register-button">Sign up</button></a>
+        <a id="right-nav" class="margin-nav ucretlendirme"><button id="nav-button">Ücretlendirme</button></a>
+        <a id="right-nav" class="margin-nav neiseyarar-button"><button id="nav-button">Ne işe yarar</button></a>
+        <a id="right-nav" class="margin-nav main-buttons"><button id="nav-button">Anasayfa</button></a>
+        
+    </div>
+    
+    
+    
+    
+    <div id="first-content">
+        <div id="texts">
+            <div id="textss" style="opacity: 1.0;">
+                <h1 id="main-text">DOSYALARINIZI BİZE EMANET EDİN</h1>
+                <p>Kendi dosyamız gibi koruyalım</p>
+			</div>
+			<div id="yedek" style="opacity: 0; display: none;">
+                <h1 id="main-text">DOSYALARINIZI BİZE EMANET EDİN</h1>
+                <p>Kendi dosyamız gibi koruyalım</p>
+			</div>
+			<div id="ucretlendirme" style="opacity: 0; display: none;">
+				<div id="fiyat-box">
+					<h1 id="ucret-text">5 Lisans Hakkı</h1>
+					<p>Aylık 50TL</p>
+					<p>3 Aylık 120TL</p>
+					<p>6 Aylık 230TL</p>
+					<p id="last-ucret">12 Aylık 440TL</p>
+					<a class="link"><button id="nav-button">Satın Al</button></a>
+				</div>
+				<div id="fiyat-box">
+					<h1 id="ucret-text">10 Lisans Hakkı</h1>
+					<p>Aylık 50TL</p>
+					<p>3 Aylık 120TL</p>
+					<p>6 Aylık 230TL</p>
+					<p id="last-ucret">12 Aylık 440TL</p>
+					<a class="link"><button id="nav-button">Satın Al</button></a>
+				</div>
+				<div id="fiyat-box">
+					<h1 id="ucret-text">15 Lisans Hakkı</h1>
+					<p>Aylık 50TL</p>
+					<p>3 Aylık 120TL</p>
+					<p>6 Aylık 230TL</p>
+					<p id="last-ucret">12 Aylık 440TL</p>
+					<a class="link"><button id="nav-button">Satın Al</button></a>
+				</div>
+				<div id="fiyat-box">
+					<h1 id="ucret-text">Sınırsız Lisans Hakkı</h1>
+					<p>Aylık 50TL</p>
+					<p>3 Aylık 120TL</p>
+					<p>6 Aylık 230TL</p>
+					<p id="last-ucret">12 Aylık 440TL</p>
+					<a class="link"><button id="nav-button">Satın Al</button></a>
+				</div>
+			</div>
+			
+			<div id="neiseyarar" style="opacity: 0; display: none;">
+                <h1 id="main-text">Nedir bu lisanslama sistemi ?</h1>
+                <p>Lisanslama Sistemi; dosyalarınızı, scriptlerinizi <br>ve paketlerinizi kötü niyetli kişilerden korur.<br>İzniniz olmadan kimse sunucunuzu veya scriptinizi<br>çalıştıramaz!</p>
+            </div>
+            <div id="loginss" style="opacity: 0; display: none;">
+                <form action="authenticate.php" method="post">
+
+					<span class="login-title">
+						<b>LİCENSE SYSTEM V2</b>
+					</span>
+
+					<div class="login-input" data-validate = "Need username!">
+						<input class="input100" type="text" name="username" placeholder="Username">
+					</div>
+
+					<div class="login-input" data-validate = "Need password!">
+						<input class="input100" type="password" name="password" placeholder="Password">
+					</div>
+
+					<div class="login-btn">
+						<input class="login100-form-btn" type="submit" style="cursor: pointer;" value="Login">
+					</div>
+
+				</form>
+            
+            </div>
+            <div id="registerss"style="opacity: 0; display: none;">
+                <form class="login100-form validate-form" action="register.php" method="post">            
+                    <span class="login-title">
+						<b>LİCENSE SYSTEM V2</b>
+					</span>
+
+					<div class="login-input" data-validate = "Need username!">
+						<input class="input100" type="text" name="username" placeholder="Username">
+					</div>
+
+					<div class="login-input" data-validate = "Need password!">
+						<input class="input100" type="password" name="password" placeholder="Password">
+					</div>
+
+					<div class="login-input" data-validate = "Need email!">
+						<input class="input100" type="email" name="email" placeholder="Email">
+					</div>
+
+					<div class="login-btn">
+						<input class="login100-form-btn" type="submit" style="cursor: pointer;" value="Register">
+					</div>
+				</form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+		var login = document.getElementById("loginss");
+		var texts = document.getElementById("textss");
+		var register = document.getElementById("registerss");
+		var yedek = document.getElementById("yedek");
+		var neiseyarar = document.getElementById("neiseyarar");
+		var ucretlendirme = document.getElementById("ucretlendirme");
+		  
+         
+        $( ".login-button" ).click(function() { 		
+			texts.style.opacity = '0';
+			setTimeout(function(){
+				texts.innerHTML = login.innerHTML;
+				texts.style.opacity = '1';
+			}, 500);				 
+        });
+
+		$( ".register-button" ).click(function() {   			
+			texts.style.opacity = '0';
+			setTimeout(function(){
+				texts.innerHTML = register.innerHTML;
+				texts.style.opacity = '1';
+			}, 500);
+        });
+
+		$( ".main-buttons" ).click(function() {   			
+			texts.style.opacity = '0';
+			setTimeout(function(){
+				texts.innerHTML = yedek.innerHTML;
+				texts.style.opacity = '1';
+			}, 500);
+        });
+
+		$( ".neiseyarar-button" ).click(function() {   			
+			texts.style.opacity = '0';
+			setTimeout(function(){
+				texts.innerHTML = neiseyarar.innerHTML;
+				texts.style.opacity = '1';
+			}, 500);
+        });
+
+		$( ".ucretlendirme" ).click(function() {   			
+			texts.style.opacity = '0';
+			setTimeout(function(){
+				texts.innerHTML = ucretlendirme.innerHTML;
+				texts.style.opacity = '1';
+			}, 500);
+        });
+
+		$("a.link").on("click",function(){
+         window.open('www.yourdomain.com','_blank');
+     	});
+
+		// var login = document.getElementById("loginss"); ucretlendirme
+		// var texts = document.getElementById("textss");
+		// var register = document.getElementById("registerss");
+
+		  
+         
+        // $( ".login-button" ).click(function() { 
+		// 	register.style.opacity = '0';  		
+		// 	texts.style.opacity = '0';
+		// 	login.style.display = 'block';
+		// 	setTimeout(function(){
+        //         register.style.display = 'none';
+		// 		texts.style.display = 'none';
+		// 		login.style.opacity = '1';
+		// 	}, 500);				 
+        // });
+
+		// $( ".register-button" ).click(function() {   			
+		// 	texts.style.opacity = '0';
+		// 	login.style.opacity = '0';
+		// 	register.style.display = 'block';
+		// 	setTimeout(function(){
+		// 		texts.style.display = 'none';
+		// 		login.style.display = 'none';
+		// 		register.style.opacity = '1';
+		// 	}, 500);
+        // });
+
+		// $( ".main-buttons" ).click(function() {   			
+		// 	register.style.opacity = '0';
+		// 	login.style.opacity = '0';
+			
+		// 	setTimeout(function(){
+		// 		register.style.display = 'none';
+		// 		login.style.display = 'none';
+		// 		texts.style.opacity = '1';
+		// 	}, 500);
+        // });
+
+
+        
+</script>
+</html>
+
+
