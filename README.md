@@ -22,7 +22,7 @@
 *Paket ekleme ve paket ile lisanslama
 
 
-# Bütün hakları Mustafa Ata Çağlayan'a aittir çalınması veya kopyasının kullanılması yasaktır.
+# Bütün hakları Mustafa Ata'ya aittir çalınması veya kopyasının kullanılması yasaktır.
 
 1-KURULUM​
 -------------------
