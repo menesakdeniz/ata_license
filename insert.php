@@ -5,7 +5,9 @@
     header("location: index.html");
     exit;
     }
-    $link = mysqli_connect("localhost", "root", "", "fivem");
+    include 'config.php';
+
+    $link = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_PASS);
  
     // Check connection
     if($link === false){
