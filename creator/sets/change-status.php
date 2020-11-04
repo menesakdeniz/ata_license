@@ -12,7 +12,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 $perm = $_SESSION["permission"];
 
 
-include '../../config.php'
+include '../../config.php';
 // Create connection
 $conn = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 // Check connection
