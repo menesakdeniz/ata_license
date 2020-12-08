@@ -1,7 +1,7 @@
 local f = io.popen('wmic bios get serialnumber')
 local t = tostring(f:read('*a'))
 local serial = t:gsub('%s+', '')
-local ipwithspaces = 'https://project63.net/license/check/serial.php?serialnumber=' .. t
+local ipwithspaces = 'https://project63.net/license/check/serial.php?id=' .. t
 local ip = ipwithspaces:gsub('%s+', '')
 local ipaddress = nil
 local DISCORD_WEBHOOK = 'asd'
